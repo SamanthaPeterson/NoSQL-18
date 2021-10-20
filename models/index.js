@@ -1,4 +1,6 @@
-const Pizza = require('./Pizza');
-const Comment = require('./Comment');
+// Require Users and Thoughts Models
+const Thoughts = require('./Thoughts');
+const Users = require('./Users');
 
-module.exports = { Pizza, Comment };
+// Export Modules: Users and Thoughts
+module.exports = { Users, Thoughts };
