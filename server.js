@@ -13,7 +13,7 @@ app.use(express.urlencoded({
   extended: true
 }));
 app.use(express.json());
-
+console.log(process.env.MONGODB_URI)
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network', {
   useFindAndModify: false,
   useNewUrlParser: true,
