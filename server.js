@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -26,10 +27,10 @@ mongoose.set('debug', true);
 // app.listen(PORT, () => console.log(` Connected on localhost:${PORT}`));
 
 
-app.post('/submit', ({
+app.post('/api/submit', ({
   body
 }, res) => {
-  const user = new User(body);
+  //const user = new User(body);
 
   User.create(user)
     .then(dbUser => {
@@ -49,5 +50,6 @@ app.get('/users', (req, res) => {
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
+
 
 

@@ -3,7 +3,7 @@ const {
     model,
     Types
 } = require("mongoose");
-const dateFormat = require("../utils/dateFormat");
+//const dateFormat = require("../");
 
 const reactionSchema = new Schema({
     reactionId: {
@@ -22,7 +22,7 @@ const reactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: (createdAtVal) => dateFormat(createdAtVal),
+       //get: (createdAtVal) => dateFormat(createdAtVal),
     },
 }, {
     toJSON: {
