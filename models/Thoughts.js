@@ -1,75 +1,64 @@
-// Require Mongoos and Moment
-const { Schema, model, Types } = require('mongoose');
-//const moment = require('moment');
+const {
+    Schema,
+    model,
+    Types
+} = require("mongoose");
+const dateFormat = require("../utils/dateFormat");
 
-// ReactionsSchema
-const ReactionsSchema = new Schema(
-    {
-    // Set custom ID 
+const reactionSchema = new Schema({
     reactionId: {
         type: Schema.Types.ObjectId,
-        default: ()=> new Types.ObjectId()
+        default: () => new Types.ObjectId(),
     },
     reactionBody: {
         type: String,
         required: true,
-        maxlength: 280
+        maxlength: 280,
     },
     username: {
         type: String,
-        required: true
+        required: true,
     },
     createdAt: {
         type: Date,
         default: Date.now,
-        //get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
-    }
+        get: (createdAtVal) => dateFormat(createdAtVal),
     },
-    {
+}, {
     toJSON: {
-        getters: true
-    } 
-    }
-);
+        getters: true,
+    },
+});
 
-// ThoughtsSchema
-const ThoughtsSchema = new Schema(
-    {
+const thoughtSchema = new Schema({
     thoughtText: {
         type: String,
         required: true,
-        minlength: 1,
-        maxlength: 280
+        maxlength: 280,
     },
     createdAt: {
         type: Date,
         default: Date.now,
-        // Moment
-        get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
+        get: (createdAtVal) => dateFormat(createdAtVal),
     },
     username: {
         type: String,
-        required: true
+        required: true,
     },
-    // Use ReactionsSchema to validate data
-    reactions: [ReactionsSchema]
-    },
-    {
+    reactions: [reactionSchema],
+}, {
     toJSON: {
         virtuals: true,
-        getters: true
+        getters: true,
     },
-    id: false
-    }
-)
+    id: false,
+});
 
-// get total count of reactions
-ThoughtsSchema.virtual('reactionCount').get(function() {
+// get total count of reactions and replies on retrieval
+thoughtSchema.virtual("reactionCount").get(function () {
     return this.reactions.length;
 });
 
-// create the Thoughts model using the Thoughts Schema
-const Thoughts = model('Thoughts', ThoughtsSchema);
+const Thought = model("Thought", thoughtSchema);
 
-// Export Thoughts Module
-module.exports = Thoughts;
+module.exports = Thought;
