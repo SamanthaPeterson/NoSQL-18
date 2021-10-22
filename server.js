@@ -4,13 +4,12 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.json());
+const db = require('./models');
+
 app.use(express.urlencoded({
   extended: true
 }));
-app.use(express.static('public'));
-
-app.use(require('./routes'));
+app.use(express.json());
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network', {
   useFindAndModify: false,
@@ -18,9 +17,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network'
   useUnifiedTopology: true
 });
 
-// Use this to log mongo queries being executed!
+mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`));
 
-//brew install mongosh
+
