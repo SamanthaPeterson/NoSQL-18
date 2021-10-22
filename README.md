@@ -1,6 +1,6 @@
 # NoSQL 18
  NoSQL 18
-#Workout Tracker
+#NoSQL Mongo Social Network API
 
 ![License Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen&style=for-the-badge)
 
@@ -11,10 +11,10 @@
 <p align="center">
 
 
-  <h1 align="center">Workout Tracker</h1>
+  <h1 align="center">NoSQL Mongo Social Network API</h1>
 
   <p align="center">
-    A Workout tracker app built using Node.js, Sequelize, MySQL and Express. <br> Project required modules for Sequelize, routes via Express, MySQL Shell to start schemas and seeds for the MySQL database.
+    NoSQL Mongo Social Network API app built using Node.js, Sequelize, MySQL and Express. <br> Project required modules for Sequelize, routes via Express, MySQL Shell to start schemas and seeds for the MySQL database.
     <br />
     <a href="https://github.com/tyler1836/workout-tracker"><strong>Explore the docs »</strong></a>
     <br />
