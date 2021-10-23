@@ -1,9 +1,4 @@
 # NoSQL 18
- NoSQL 18
-#NoSQL Mongo Social Network API
-
-![License Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen&style=for-the-badge)
-
 
 
 <!-- PROJECT LOGO -->
@@ -11,16 +6,32 @@
 <p align="center">
 
 
-  <h1 align="center">NoSQL Mongo Social Network API</h1>
+  <h1 align="center">NoSQL MongoDB Social network API</h1>
 
   <p align="center">
-    NoSQL Mongo Social Network API app built using Node.js, Sequelize, MySQL and Express. <br> Project required modules for Sequelize, routes via Express, MySQL Shell to start schemas and seeds for the MySQL database.
+    NoSQL MongoDB Social network API - Created by Samantha Peterson
     <br />
-    <a href="https://github.com/tyler1836/workout-tracker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
     <br />
     <br />
     
    
+## Brief Summary 
+
+EORITHEQWRIGNQE[IRTQ3[0IRWNY[IOSHFGQSIHRTL;QKWJ4T0QJSGDKQWPKTJQWPRT
+ WQRTHQWOPRUHFO[WERIUHT
+ WTHQWOTUHH
+ 
+
+## Screenshot
+<img width=" ">
+
+
+
+
+Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
+ click here to watch the walk through video https://youtu.be/V4YOchf2pCY
+
    
   </p>
 </p>
@@ -40,12 +51,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -58,51 +67,38 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Screenshot coming soon
-
-<!-- ![Screenshot ](public/assets/img/screenshot.png) -->
-
 
 
 ### Built With
 
-* [Node.js](https://nodejs.dev/)
-* [Sequelize ORM](https://sequelize.org/)
-* [Express](https://expressjs.com/)
-* [dotenv](https://www.npmjs.com/package/dotenv)
-* [npm](https://www.npmjs.com/)
-* [bcrypt](https://www.npmjs.com/package/bcrypt)
-* [Connect Session Store using Sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+* [MongoDB](https://getbootstrap.com/)
+* [Mongoose](https://www.w3schools.com/css/css_intro.asp)
+* [Javascript](https://expressjs.com/)
+* [Insomnia](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [Heroku](https://openweathermap.org/api)
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Clone the repo
+1. Click on the link below or enter it in your browser
    ```sh
-   git clone https://github.com/tyler1836/workout-tracker
+    https://github.com/SamanthaPeterson/NoSQL-18
+    
+    https://youtu.be/V4YOchf2pCY
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+2. Enter city names in the search bar, and view the current and forecast weather information available
+Step 2dghadfhjadjsdbvserd
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Usage and License Agreement
 
 This software is licensed under the:
 
@@ -124,50 +120,43 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## Contributors
-
-<a href="https://github.com/tyler1836/workout-tracker/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tyler1836/workout-tracker" />
-</a>
-
-
-
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create.
-
-1. Fork the Project
-2. Have fun.
-
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
+Please feel free to contribute to the project. Email me with any questions or concerns 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Tyler Role - 
+Samantha Peterson 
 
-Project Link: [https://github.com/tyler1836/workout-tracker](https://github.com/brandon-stewart-rgb/paint-headlights)
+Github: https://github.com/SamanthaPeterson
+
+Linkedin: https://www.linkedin.com/in/samantha-peterson-web-developer-photographer/
+ 
+Twitter:
+@CodingAndDesign
+https://twitter.com/CodingAndDesign
+
+Portfolio
+https://photographersama.myportfolio.com/
+
+
+Email photographer.samantha@live.com
+
+
+ 
+
+
+Project Link: [https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard](https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Node.js](https://nodejs.dev/)
-* [Sequelize ORM](https://sequelize.org/)
-* [Express](https://expressjs.com/)
-* [dotenv](https://www.npmjs.com/package/dotenv)
-* [npm](https://www.npmjs.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Open Weather API](https://sequelize.org/)
+
 
