@@ -9,11 +9,7 @@
   <h1 align="center">NoSQL MongoDB Social network API</h1>
 
   <p align="center">
-<<<<<<< HEAD
-    NoSQL Mongo Social Network API app built using ...
-=======
     NoSQL MongoDB Social network API - Created by Samantha Peterson
->>>>>>> 8553a03f7e5fd8ea894e3739ac1506eac97a0563
     <br />
     <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
     <br />
@@ -22,9 +18,7 @@
    
 ## Brief Summary 
 
-EORITHEQWRIGNQE[IRTQ3[0IRWNY[IOSHFGQSIHRTL;QKWJ4T0QJSGDKQWPKTJQWPRT
- WQRTHQWOPRUHFO[WERIUHT
- WTHQWOTUHH
+A social Network API b
  
 
 ## Screenshot
@@ -81,8 +75,8 @@ Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
 * [Insomnia](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [Heroku](https://openweathermap.org/api)
 * [Visual Studio Code](https://code.visualstudio.com/)
-
-
+* [MongoDB Atlas](https://getbootstrap.com/)
+* [MongoDB Compass](https://getbootstrap.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -160,7 +154,8 @@ Project Link: [https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashb
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Bootstrap](https://getbootstrap.com/)
-* [Open Weather API](https://sequelize.org/)
+* [MongoDB](https://getbootstrap.com/)
+* [Javascript](https://sequelize.org/)
 
-
+Thank you to my TA and classmate for helping me to do some trouble shooting during office hours. 
+And thank you as well to my tutor for also helping me to better organize my files and troubleshoot. 
