@@ -32,7 +32,7 @@ app.post('/api/submit', ({
 }, res) => {
   //const user = new User(body);
 
-  User.create(user)
+  User.create(body)
     .then(dbUser => {
       res.json(dbUser);
     })
@@ -42,8 +42,8 @@ app.post('/api/submit', ({
 });
 
 app.get('/users', (req, res) => {
-  User.find({}).then(users => {
-    res.json(users);
+  User.find({}).then(user => {
+    res.json(user);
   });
 });
 

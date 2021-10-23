@@ -1,9 +1,6 @@
 const {
     User
 } = require("../models");
-const {
-    populate
-} = require("../models/User");
 
 const userController = {
     //get all users
