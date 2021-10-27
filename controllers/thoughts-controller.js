@@ -128,7 +128,7 @@ const thoughtController = {
             .then((dbThoughtData) => {
                 if (!dbThoughtData) {
                     res.status(404).json({
-                        message: "No thought with this id"
+                        message: "No thought found with this id"
                     });
                     return;
                 }
@@ -137,7 +137,7 @@ const thoughtController = {
             .catch((err) => res.json(err));
     },
 
-    //delete Reaction
+    //delete 
     deleteReaction({
         params
     }, res) {

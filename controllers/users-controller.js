@@ -3,7 +3,7 @@ const {
 } = require("../models");
 
 const userController = {
-    //get all users
+    //get all 
     getAllUsers(req, res) {
         User.find({})
             .populate({
@@ -20,7 +20,7 @@ const userController = {
                 res.status(400).json(err);
             });
     },
-    // get one pizza by id
+    
     getUserById({
         params
     }, res) {
@@ -33,7 +33,7 @@ const userController = {
             })
             .select("-__v")
             .then((dbUserData) => {
-                // If no user is found
+            
                 if (!dbUserData) {
                     res.status(404).json({
                         message: "No user found with this ID"

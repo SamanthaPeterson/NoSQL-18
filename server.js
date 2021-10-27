@@ -41,7 +41,7 @@ app.post('/api/submit', ({
     });
 });
 
-app.get('/users', (req, res) => {
+app.get('/user', (req, res) => {
   User.find({}).then(user => {
     res.json(user);
   });
