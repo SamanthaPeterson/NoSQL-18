@@ -1,5 +1,5 @@
 {
-  "name": "virtuals",
+  "name": "NoSQL-18",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,8 +12,6 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongo": "^0.1.0",
-    "mongoose": "^5.13.12",
-    "node": "^17.0.1"
+    "mongoose": "^5.13.12"
   }
 }

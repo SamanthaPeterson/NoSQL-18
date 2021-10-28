@@ -1,38 +1,45 @@
 const express = require('express');
 const mongoose = require('mongoose');
-require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 const db = require('./models');
-const {
-  User
-} = require('./models');
 
-app.use(express.urlencoded({
-  extended: true
-}));
+app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
-console.log(process.env.MONGODB_URI)
+
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
 
-
+mongoose.set('useCreateIndex', true);
 mongoose.set('debug', true);
 
-// app.listen(PORT, () => console.log(` Connected on localhost:${PORT}`));
+db.User.create({ name: 'Samantha Peterson'})
+  .then(dbUser => {
+    console.log(dbUser);
+  })
+  .catch(({ message }) => {
+    console.log(message);
+  });
 
+// Retrieve all notes
+app.get('/notes', (req, res) => {
+  db.Note.find({})
+    .then(dbNote => {
+      res.json(dbNote);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
 
-app.post('/api/submit', ({
-  body
-}, res) => {
-  //const user = new User(body);
-
-  User.create(body)
+// Retrieve all users
+app.get('/user', (req, res) => {
+  db.User.find({})
     .then(dbUser => {
       res.json(dbUser);
     })
@@ -41,15 +48,59 @@ app.post('/api/submit', ({
     });
 });
 
+// Create a new note and associate it with user
+app.post('/api/submit', ({
+  body
+}, res) => {
+  db.Note.create(body)
+    .then(({
+        _id
+      }) =>
+      db.User.findOneAndUpdate({}, {
+        $push: {
+          notes: _id
+        }
+      }, {
+        new: true
+      })
+    )
+    .then(dbUser => {
+      res.json(dbUser);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
+
+//  app.post('/api/submit', ({
+//       body
+//     }, res) => {
+//       //const user = new User(body);
+
+// //User.create(body)
+//   .then(dbUser => {
+//     res.json(dbUser);
+//   })
+//   .catch(err => {
+//     res.json(err);
+//   });
+
+
 app.get('/user', (req, res) => {
-  User.find({}).then(user => {
-    res.json(user);
-  });
+  db.User.find({})
+    .populate({
+      path: 'notes',
+      select: '-__v'
+    })
+
+    .then(dbUser => {
+      res.json(dbUser);
+    })
+    .catch(err => {
+      res.json(err);
+    });
 });
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
-
-
-
