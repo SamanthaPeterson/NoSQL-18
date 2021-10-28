@@ -27,10 +27,10 @@ db.User.create({ name: 'Samantha Peterson'})
   });
 
 // Retrieve all notes
-app.get('/notes', (req, res) => {
+app.get('/', (req, res) => {
   db.Note.find({})
-    .then(dbNote => {
-      res.json(dbNote);
+    .then(db => {
+      res.json(db);
     })
     .catch(err => {
       res.json(err);
@@ -48,11 +48,11 @@ app.get('/user', (req, res) => {
     });
 });
 
-// Create a new note and associate it with user
+
 app.post('/api/submit', ({
   body
 }, res) => {
-  db.Note.create(body)
+  db.user.create(body)
     .then(({
         _id
       }) =>
@@ -89,7 +89,7 @@ app.post('/api/submit', ({
 app.get('/user', (req, res) => {
   db.User.find({})
     .populate({
-      path: 'notes',
+      path: 'thoughts',
       select: '-__v'
     })
 
