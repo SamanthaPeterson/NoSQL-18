@@ -73,11 +73,11 @@ Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
 * [MongoDB](https://www.mongodb.com/atlas/database?utm_content=rlsapostreg&utm_source=google&utm_campaign=gs_americas_uscan_search_brand_dsa_atlas_desktop_rlsa_postreg&utm_term=&utm_medium=cpc_paid_search&utm_ad=b&utm_ad_campaign_id=14383025495&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJAeza3JbvYcwx8v3dL-zq0BVCih0tcUi4DtjbZ3unKyGNq1gvE-u8aAsmVEALw_wcB)
 * [Mongoose](https://mongoosejs.com/)
 * [Javascript](https://expressjs.com/)
-* [Insomnia](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [Insomnia](https://insomnia.rest/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [MongoDB Atlas](https://getbootstrap.com/)
-* [MongoDB Compass](https://getbootstrap.com/)
-* [Express.js](https://expressjs.com//)
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/efficiency?utm_content=rlsapostreg&utm_source=google&utm_campaign=gs_americas_uscan_search_brand_dsa_atlas_desktop_rlsa_postreg&utm_term=&utm_medium=cpc_paid_search&utm_ad=b&utm_ad_campaign_id=14383025495&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcKBqhmFp-pMtK24WlVrO15iSemuef21EP23MY49LT0nKm32VMdtKzoaAkhzEALw_wcB)
+* [MongoDB Compass](https://www.mongodb.com/products/compass)
+* [Express.js](https://expressjs.com/)
 * 
 <!-- GETTING STARTED -->
 ## Getting Started
