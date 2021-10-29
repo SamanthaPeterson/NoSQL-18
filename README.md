@@ -6,10 +6,10 @@
 <p align="center">
 
 
-  <h1 align="center">NoSQL MongoDB Social network API</h1>
+  <h1 align="center">NoSQL MongoDB Social Network API</h1>
 
   <p align="center">
-    NoSQL MongoDB Social network API - Created by Samantha Peterson
+    NoSQL MongoDB Social Network API - Created by Samantha Peterson
     <br />
     <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
     <br />
@@ -28,7 +28,7 @@ A social Network API b
 
 
 Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
- click here to watch the walk through video https://youtu.be/V4YOchf2pCY
+ click here to watch the walk through video https://youtu.be/IGjVo_4wIJQ
 
    
   </p>
@@ -144,12 +144,9 @@ https://photographersama.myportfolio.com/
 Email photographer.samantha@live.com
 
 
- 
+Project Link: [https://github.com/SamanthaPeterson/NoSQL-18](https://github.com/SamanthaPeterson/NoSQL-18)
 
-
-Project Link: [https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard](https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard)
-
-
+https://youtu.be/IGjVo_4wIJQ
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
