@@ -5,3 +5,5 @@ const Thoughts = require('./Thoughts');
 
 // Export Modules: Users and Thoughts
 module.exports = { User, Thoughts };
+
+//looks good
