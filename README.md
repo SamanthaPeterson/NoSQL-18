@@ -78,21 +78,25 @@ Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/efficiency?utm_content=rlsapostreg&utm_source=google&utm_campaign=gs_americas_uscan_search_brand_dsa_atlas_desktop_rlsa_postreg&utm_term=&utm_medium=cpc_paid_search&utm_ad=b&utm_ad_campaign_id=14383025495&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcKBqhmFp-pMtK24WlVrO15iSemuef21EP23MY49LT0nKm32VMdtKzoaAkhzEALw_wcB)
 * [MongoDB Compass](https://www.mongodb.com/products/compass)
 * [Express.js](https://expressjs.com/)
-* 
+  
 <!-- GETTING STARTED -->
 ## Getting Started
 
 
 ### Installation
 
-1. Click on the link below or enter it in your browser
-   ```sh
+1. Click on the link below 
+ 
     https://github.com/SamanthaPeterson/NoSQL-18
     
     https://youtu.be/V4YOchf2pCY
-   ```
-2. Enter city names in the search bar, and view the current and forecast weather information available
-Step 2dghadfhjadjsdbvserd
+   
+2. Open repo in your integrated terminal 
+Right click on the server js file, and select "open in integrated terminal"
+This will launch your terminal
+3. Run NPM I
+4. Run NPM Start
+5. Open in Insomnia to test routes 
 
 
 
