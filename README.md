@@ -18,7 +18,8 @@
    
 ## Brief Summary 
 
-A social Network API b
+A social Network API - 
+A back end application, created with MongoDB, Mongoose, and Express. Insomnia is used to test the routes. 
  
 
 ## Screenshot
