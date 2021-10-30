@@ -1,6 +1,6 @@
 # NoSQL 18
 
-
+\
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
